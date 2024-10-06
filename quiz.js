@@ -11,7 +11,7 @@ function checkAnswer() {
 
     // Check if the user selected an answer
     if (userAnswer) {
-        if (userAnswer.value === correctAnswer) {
+        if (userAnswer === correctAnswer) {
             feedback.textContent = "Correct! Well done.";
         } else {
             feedback.textContent = "That's incorrect. Try again!";
