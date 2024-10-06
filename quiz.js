@@ -12,6 +12,9 @@ function checkAnswer() {
     // Check if the user selected an answer
     if (userAnswer) {
         // Compare the value of the selected answer with the correct answer
+        
+        //["if (userAnswer === correctAnswer)"]
+        
         if (userAnswer === correctAnswer) {
             feedback.textContent = "Correct! Well done.";
         } else {
@@ -25,4 +28,3 @@ function checkAnswer() {
 // Add event listener to the submit button
 document.getElementById("submit-answer").addEventListener("click", checkAnswer);
 
-//["if (userAnswer === correctAnswer)"]
